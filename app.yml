@@ -1,5 +1,5 @@
 runtime: python311
-entrypoint: python main.py
+entrypoint: gunicorn -b :$PORT main:app
 
 env_variables:
   ENV: "production"
