@@ -1,4 +1,4 @@
-runtime: python3
+runtime: python311
 entrypoint: python main.py
 
 env_variables:
