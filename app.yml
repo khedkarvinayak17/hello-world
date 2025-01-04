@@ -1,0 +1,5 @@
+runtime: python3
+entrypoint: python main.py
+
+env_variables:
+  ENV: "production"
